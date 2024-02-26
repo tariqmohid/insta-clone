@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #EDEDED;
+}
+
+main{
+    width: 375px;
+    margin: 0 auto;
+    /* background-color: #ffff; */
+    box-shadow: 0 0px 5px black;
+}
+
+/* .name , .likes , .comments{
+    text-shadow: 0 0px 1px black;
+} */
+
+.container{
+    background-color: #fff;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+section{
+    margin-top: 4px;
+}
+
+header .container{
+    display: flex;
+    justify-content:space-between;
+    padding: 16px 16px 5px;
+}
+
+.logo{
+    width: 127px;
+    height: 33.02px;
+    margin: 0;
+}
+
+.my-profile , .avater-one{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.avater-img{
+    display: flex;
+    padding: 22px 11px 11px;
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 700;
+}
+.name{
+    margin-left: 7px;
+}
+.location{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.profile-pic{
+    width: 375px;
+    display: block;
+}
+
+.icons-container{
+    padding: 21px 0px 12px 10px;
+}
+
+.icons{
+    width: 22.38px;
+}
+
+.icons:hover{
+    opacity: 0.6;
+}
+
+.likes-container{
+   padding: 0 12px;
+}
+
+.likes{
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+article .container{
+    padding: 12px 19px 16px 13px
+}
+
+.comments{
+    font-size: 13px;
+}
+
+.comments span{
+    font-weight: 700;
+}
